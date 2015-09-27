@@ -1,0 +1,19 @@
+{
+  "name": "cdr",
+  "version": "0.0.1",
+  "homepage": "https://github.com/antirek/cdr",
+  "authors": [
+    "sergey <serge.dmitriev@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vis": "~4.8.2"
+  }
+}
