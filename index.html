@@ -25,9 +25,11 @@
   $.ajax({
     url: 'http://85.172.79.219:8090/acdr/info.php',
     success: function (data) {
+      console.log(data);
+      var d = JSON.parse(data);
       // DOM element where the Timeline will be attached
       var container = document.getElementById('visualization');
-      var items = new vis.DataSet(data);
+      var items = new vis.DataSet(d);
       
 
       // Configuration for the Timeline
